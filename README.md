@@ -34,4 +34,8 @@ How to use
             Brown - Base, 50 - 900
             Grey - Base, 50 - 900
             Blue Grey - Base, 50 - 900
- 
+    Color3
+    	Color3.New(r, g, b)
+    	Color3.FromRGB(R, G, B)
+    	Color3.FromHSV(HSV)
+    	Color3.FromHEX(#HEX)
