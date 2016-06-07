@@ -1,12 +1,18 @@
-How to setup
-  Server
-    1. Create a script in ServerScriptService
-    2. Add 'require(428158721)()' at the top of the script
-  Client
-    1. Create a localscript in either StarterPlayerScripts, StarterCharacterScripts, StarterGui or StarterPack
-    2. Add 'require(Game.ReplicatedStorage:WaitForChild('Environment'))()' to the top of the localscript
+**How to setup**
+------------
 
-How to use
+>Server
+  
+ 1. Create a script in ServerScriptService
+ 2. Add 'require(428158721)()' at the top of the script
+
+>Client
+
+1. Create a localscript in either StarterPlayerScripts, StarterCharacterScripts, StarterGui or StarterPack
+2. Add 'require(Game.ReplicatedStorage:WaitForChild('Environment'))()' to the top of the localscript
+
+>How to use
+
   Server
     Network -- By Kurieita
       Network:Add('Function Name', function(Arguments) end)
@@ -39,3 +45,6 @@ How to use
     	Color3.FromRGB(R, G, B)
     	Color3.FromHSV(HSV)
     	Color3.FromHEX(#HEX)
+		String
+			String.Replicate(String, Number)
+			(Rest are normal string functions capitalized)
