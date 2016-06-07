@@ -13,14 +13,19 @@
 
 >How to use
 
-  Server
-    Network -- By Kurieita
-      Network:Add('Function Name', function(Arguments) end)
-      Network:Send(Name, Player, Arguements)
-    Color
-      Color.Palette(PaletteName, Colour, Shade)
+>Network -- By Kurieita
+	  >>Server
+      >>Network:Add('Function Name', function(Arguments) end)
+      >>Network:Send(Name, Player, Arguements)
+      
+   >>Client
+   >>Network:Add('Function Name', function(Arguments) end)
+   >>Network:Send(Name, nil, Arguements)
+
+>Color
+      >>Color.Palette(PaletteName, Colour, Shade)
         Palettes
-          Material
+        >>>Material
             Red - Base, 50 - 900, A100 - A700
             Pink - Base, 50 - 900, A100 - A700
             Purple - Base, 50 - 900, A100 - A700
@@ -40,11 +45,13 @@
             Brown - Base, 50 - 900
             Grey - Base, 50 - 900
             Blue Grey - Base, 50 - 900
-    Color3
-    	Color3.New(r, g, b)
-    	Color3.FromRGB(R, G, B)
-    	Color3.FromHSV(HSV)
-    	Color3.FromHEX(#HEX)
-		String
-			String.Replicate(String, Number)
-			(Rest are normal string functions capitalized)
+    
+   >Color3
+    	>>Color3.New(r, g, b)
+    	>>Color3.FromRGB(R, G, B)
+    	>>Color3.FromHSV(HSV)
+    	>>Color3.FromHEX(#HEX)
+		
+>String
+			>>String.Replicate(String, Number)
+			>>(Rest are normal string functions capitalized)
